@@ -16,7 +16,7 @@ body {
 	float: left;
 	width: 20%;
 	height: 100%;
-	background-color: #DDDAD6;
+	background-color: #AE9C96;
     z-index: 3;
 }
 
@@ -29,7 +29,8 @@ body {
 	height: 5%;
 	width: 100;
 	text-align: center;
-	color: #eeb213;
+	color: #A6D8DE;
+    text-shadow: 0px 0px 10px #000;
 }
 
 .menu-nav-foto {
@@ -42,8 +43,8 @@ body {
 .menu-nav-foto img {
 	max-width:100%;
 	max-height: 100%;
-	border-radius: 50%; /* Borde redondeado */
-	box-shadow: 0px 0px 10px #000; /* Sombra */
+	border-radius: 50%;
+    box-shadow: 0px 0px 5px #000;
 	padding:0;
 	border:0;
 	-moz-transition: all 1s;
@@ -54,8 +55,8 @@ body {
 .menu-nav-foto img:hover {
 	max-width:100%;
 	max-height: 100%;
-	box-shadow: none; /* Con esto eliminamos la sombra */
-	border-radius: 0; /* Con esto eliminamos el borde redondeado */
+	border-radius: 0;
+    box-shadow: none;
 	-moz-transition: all 1s;
 	-webkit-transition: all 1s;
 	-o-transition: all 1s;
@@ -83,8 +84,8 @@ body {
 	text-decoration: none;
     display: block;
     text-transform: uppercase;
-    text-shadow: 0px 0px 2px #eeb213;
-    color: #eeb213;
+    text-shadow: 0px 0px 2px #A6D8DE;
+    color: #A6D8DE;
     padding: 5px 20px;
     margin: 2px;
     background: rgba(0,0,0,0.2);
@@ -97,18 +98,19 @@ body {
 }
 
 .blur-links:hover li a{
-    text-shadow: 0px 0px 10px #eeb213;
+    text-shadow: 0px 0px 10px #A6D8DE;
     color: transparent;
     background: rgba(0,0,0,0.2);
 }
 
 .blur-links li a:hover{
-    background: rgb(48, 24, 82);
-    text-shadow: 0px 0px 1px #eeb213;
+    background: #f9f1b5;
+    text-shadow: 0px 0px 1px #000;
+    color: #000;
 }
 
 .content {
-	background-color: #9391B5;
+	background-color: #32313B;
 	width: 80%;
 	height: 100%;
 	position: absolute;
@@ -136,22 +138,20 @@ body {
 
 .panel:target {
     margin-left: 20%;
-    background-color: #9391B5;
+    background-color: #32313B;
+    -webkit-transition: all .6s .2s ease-in-out;
+	-moz-transition: all .6s .2s ease-in-out;
+	-o-transition: all .6s .2s ease-in-out;
+	-ms-transition: all .6s .2s ease-in-out;
+	transition: all .6s .2s ease-in-out;
 }
 
 #Home:target ~ #link-home,
 #Proyectos:target ~ #link-proyectos,
 #Contacto:target ~ #link-contacto {
-    background: rgba(0,0,0,1.0);
-    text-shadow: 0px 0px 1px #eeb213;
+    background: #f9f1b5;
+    text-shadow: 0px 0px 1px #000;
+    color: #000;
 }
 
-.footer-content {
-	clear: both;
-	height: 10%;
-	position: absolute;
-	width: 100%;
-	background-color: #eeb213;
-	margin-top: 50.11%;
-}
 
