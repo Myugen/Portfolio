@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+	margin: 0;
+	padding: 0;
+    background-color: #9391B5;
+}
+
+.menu-nav {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background-color: #524169;
+}
+
+.menu-nav-titulo {
+	padding: 0;
+	margin: 0;
+	/*font-family: 'Share Tech', sans-serif;*/
+	/*font-family: 'Electrolize', sans-serif;*/
+	font-family: 'Roboto Slab', sans-serif;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	color: #eeb213;
+}
+
+.menu-nav-foto {
+	padding: 5% 0 0 0;
+	width:100%;
+	height: auto;
+
+}
+
+.menu-nav-foto img {
+	max-width:100%;
+	max-height: auto;
+	border-radius: 50%;
+	padding:0;
+	border:0;
+}
+
+.menu-nav-links {
+	display: none;
+}
+
+.content {
+    clear: both;
+    width: 100%;
+    height: 100%;
+}
+
+.panel {
+    clear: both;
+    width: 100%;
+    height: 100%;
+}

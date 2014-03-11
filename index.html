@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" media="(max-width: 640px)" href="CSS/estilomovil.css" />
+	<link rel="stylesheet" type="text/css" media="(min-width: 640px)" href="CSS/estilo.css" />
 	<title>Miguel Cabrera San Gil</title>
 </head>
 <body>
@@ -11,19 +12,27 @@
 			<h2>Miguel Ignacio Cabrera San-Gil</h2>
 		</div>
 		<div class="menu-nav-foto">
-			<center><a href="#About"><img class="menu-nav-foto" src="Imagenes/me2.jpg" height="600" width="450" alt=""></a></center>
+			<center><a href="#About"><img class="menu-nav-foto" src="Imagenes/m3.jpg" height="600" width="450" alt=""></a></center>
 		</div>
 		<div class="menu-nav-links">
 			<ul class="blur-links">
-				<li><a href="">Proyectos</a></li>
-				<li><a href="">Diseño Web</a></li>
-				<li><a href="">Contacto</a></li>
+				<li><a id="link-home" href="#Home">Home</a></li>
+				<li><a id="link-proyectos" href="#Proyectos">Proyectos</a></li>
+				<li><a id="link-contacto" href="#Contacto">Contacto</a></li>
 			</ul>
 		</div>
 	</nav>
 	<section class="content" id="Home">
-		
+		<p>Home</p>
 	</section>
-	<footer class="footer-content"></footer>
+
+	<section class="panel" id="Proyectos">
+		<p>Proyectos</p>
+	</section>
+
+	<section class="panel" id="Contacto">
+		<p>Contactos</p>
+	</section>
+
 </body>
 </html>
